@@ -6,5 +6,7 @@ class Especialidad {
 	
     static constraints = {
 		nombre blank:false, minSize:3, maxSize:20, unique:true
+		
+		println "HOLA COMO ESTAS VIOEJA"
     }
 }
